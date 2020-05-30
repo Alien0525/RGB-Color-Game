@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.square {
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+}
+
+#container{
+    margin: 0.5rem auto;
+    max-width: 50%;
+
+}
+h1, h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1{
+    margin: 0;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+h2{
+    color: lightgreen;
+    background: linear-gradient(270deg, rgb(0, 0, 255), rgb(255, 0, 0));
+    margin: 0;
+    padding: 1rem;
+    text-shadow: maroon;
+    font-size: 2rem;
+
+}
+
+#message{
+    display:inline-block;
+    width: 20%;
+}
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected{
+    border: none;
+    background-color: lightskyblue;
+}
+
+button{
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 1s;
+    outline: none;
+}
+
+button:hover{
+    color: lightgreen;
+    background: linear-gradient(270deg, rgb(0, 0, 255), rgb(255, 0, 0));
+
+}
+
+
