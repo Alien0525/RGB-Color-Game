@@ -75,3 +75,9 @@ button:hover{
 }
 
 
+@media (max-width: 450px){
+    #container{
+        margin: 0.5rem auto;
+        max-width: 80%;
+    }
+}
